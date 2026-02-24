@@ -1,0 +1,19 @@
+[package]
+name = "acuity-index-kreivo"
+version = "0.7.0"
+edition.workspace = true
+
+[dependencies]
+mainnet-metadata = { workspace = true }
+testnet-metadata = { workspace = true }
+tokio = { workspace = true, features = ["macros", "rt", "rt-multi-thread"] }
+subxt = { workspace = true }
+clap = { workspace = true, features = ["derive"] }
+hex-literal = { workspace = true }
+clap-verbosity-flag = { workspace = true }
+sled = { workspace = true, default-features = false }
+byte-unit = { workspace = true }
+serde = { workspace = true, features = ["derive"] }
+zerocopy = { workspace = true }
+tracing-log = { workspace = true }
+acuity-index-substrate = { workspace = true }
