@@ -23,10 +23,6 @@ Full documentation is available at [https://index.acuity.network/](https://index
   - Proxy
   - Multisig
   - Preimage
-- Chain-specific indexing keys:
-  - `AuctionIndex`
-  - `CandidateHash`
-  - `ParaId`
 - Configurable database mode, cache capacity, and concurrency
 - Optional indexing of event variants
 - Optional in-database event storage for immediate retrieval
@@ -104,7 +100,3 @@ acuity-index-kreivo \
   --db-mode high-throughput \
   --db-cache-capacity "4 GiB"
 ```
-
----
-
-## Project Structure
